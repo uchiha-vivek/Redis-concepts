@@ -73,7 +73,7 @@ node index.js
 ### Performance Metrics:
 
 <p align="center">
-   <img src="./assets/redisss.png" width="150" alt="Redis Logo">
+   <img src="./assets/redisss.png" width="250" height="300" alt="Redis Logo">
 </p>
 
 
