@@ -2,7 +2,6 @@
 
 <p align="center">
    <img src="./assets/redis.png" width="150" alt="Redis Logo">
-  
 </p>
 
 <h1 align="center">
@@ -71,7 +70,11 @@ node index.js
 
 
 
+### Performance Metrics:
 
+<p align="center">
+   <img src="./assets/redisss.png" width="150" alt="Redis Logo">
+</p>
 
 
 
