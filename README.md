@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-RAGGENIE
+Redis
 </h1>
 
 ### Installation of Redis in Ubuntu
