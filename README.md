@@ -1,6 +1,13 @@
 ## Redis Concepts :
 
+<p align="center">
+   <img src="./assets/redis.png" width="150" alt="Redis Logo">
+  
+</p>
 
+<h1 align="center">
+RAGGENIE
+</h1>
 
 ### Installation of Redis in Ubuntu
 
