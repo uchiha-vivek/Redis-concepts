@@ -8,7 +8,7 @@ app.use(cors());
 
 const DEFAULT_EXPIRATION = 3600;
 
-// Create Redis client
+
 const client = Redis.createClient();
 client.on('error', (err) => console.error('Redis Client Error', err));
 
@@ -16,7 +16,7 @@ client.on('error', (err) => console.error('Redis Client Error', err));
     await client.connect();
 })();
 
-// Metrics tracking for both endpoints
+
 let metrics = {
     cached: {
         totalRequests: 0,
@@ -32,7 +32,7 @@ let metrics = {
     }
 };
 
-// 📌 Cached endpoint
+
 app.get('/photos', async (req, res) => {
     const start = Date.now();
     const albumId = req.query.albumId;
@@ -88,7 +88,7 @@ app.get('/photos', async (req, res) => {
     }
 });
 
-// 📌 Non-cached endpoint
+
 app.get('/photos-nocache', async (req, res) => {
     const start = Date.now();
     const albumId = req.query.albumId;
@@ -123,7 +123,7 @@ app.get('/photos-nocache', async (req, res) => {
     }
 });
 
-// 📌 Metrics endpoint
+
 app.get('/metrics', (req, res) => {
     res.json({
         cachedEndpoint: {

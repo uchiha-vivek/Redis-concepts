@@ -69,6 +69,35 @@ node index.js
 ```
 
 
+### How to test :
+
+Once the server is running
+
+Call cached endpoint (first time hit's miss)
+```bash
+curl "http://localhost:3000/photos?albumId=1"
+```
+
+
+call cached endpoint again(hits)
+```bash
+curl "http://localhost:3000/photos?albumId=1"
+```
+
+Invoke no-cache endpoint
+```bash
+curl "http://localhost:3000/photos-nocache?albumId=1"
+```
+
+
+Test and check the metrics:
+```bash
+curl "http://localhost:3000/metrics"
+
+```
+
+
+
 
 ### Performance Metrics:
 
