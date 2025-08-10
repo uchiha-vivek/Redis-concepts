@@ -1,13 +1,13 @@
 ## Redis Concepts :
 
 <p align="center">
-   <img src="../assets/redis.png" width="150" alt="Redis Logo" style="margin-right: 20px;">
-   <img src="../assets/db.png" width="150" alt="Database Logo">
+   <img src="../assets/redis.png" width="150" alt="Redis Logo" style="margin-right: 40px;">
+   <img src="../assets/db.png" width="150" alt="Database Logo"  >
 </p>
 
 
 <h1 align="center">
-Redis
+Redis + Session Data
 </h1>
 
 
@@ -38,3 +38,5 @@ It tracks the number of times a user visits the site during their session.
 ---
 
 
+Run the following code :
+[file](https://github.com/uchiha-vivek/Redis-concepts/blob/main/session/session.js)
