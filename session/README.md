@@ -1,9 +1,11 @@
 ## Redis Concepts :
 
 <p align="center">
-   <img src="../assets/redis.png" width="150" alt="Redis Logo" style="margin-right: 40px;">
-   <img src="../assets/db.png" width="150" alt="Database Logo"  style="margin-left:40px;" >
+   <img src="../assets/redis.png" width="150" alt="Redis Logo">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <img src="../assets/db.png" width="150" alt="Database Logo">
 </p>
+
 
 
 <h1 align="center">
