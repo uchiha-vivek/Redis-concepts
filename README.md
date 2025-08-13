@@ -109,3 +109,12 @@ curl "http://localhost:3000/metrics"
 
 ### Data Structures in Redis
 
+The following data structures have been included:
+- List
+- String
+- Set
+- Sorted Set
+- Hash
+- JSON
+
+
