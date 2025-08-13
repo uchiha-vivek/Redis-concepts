@@ -65,6 +65,17 @@ app.get("/api/v1/zset", async (req, res) => {
     res.json({ user });
   });
 
+  // Understanding JSON
+  // https://redis.io/docs/latest/develop/data-types/json/
+  app.get("/api/v1/json", async (req, res) => {
+  try {
+    await client.sendCommand(["JSON.SET", "user:1", "$", '{"name":"Vivek","age":25}']);
+    const name = await client.sendCommand(["JSON.GET", "user:1", "$.name"]);
+    res.json({ jsonName: name });
+  } catch (err) {
+    res.json({ error: "RedisJSON module not installed" });
+  }
+});
 
 app.listen(3000,()=> {
     console.log('Server is running on PORT 3000')
