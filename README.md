@@ -117,4 +117,55 @@ The following data structures have been included:
 - Hash
 - JSON
 
+[Link of Data Structure](https://github.com/uchiha-vivek/Redis-concepts/blob/main/data-structures/structure.js)
+
+Ways to test it
+
+Navigate to ```data-structures``` folder
+Run ```node structure.js```
+
+
+Test the following below api's
+
+List
+```bash
+http://localhost:3000/api/v1/list
+```
+
+String
+```bash
+http://localhost:3000/api/v1/string
+```
+
+Set
+```bash
+http://localhost:3000/api/v1/set
+```
+
+Sorted Set
+```bash
+http://localhost:3000/api/v1/zset
+```
+
+Hash
+```bash
+http://localhost:3000/api/v1/hash
+```
+
+JSON
+```bash
+http:/localhost:3000/api/v1/json
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
